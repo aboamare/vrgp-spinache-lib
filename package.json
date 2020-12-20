@@ -1,0 +1,19 @@
+{
+  "name": "@aboamare/vrgp-spinache-lib",
+  "version": "0.1.0",
+  "description": "Library to support development of applications that connect to a Spinache based Maritime Operation Center.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Aarts, AboaMare",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aboamare/vrgp-spinache-lib.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aboamare/vrgp-spinache-lib/issues"
+  },
+  "homepage": "https://github.com/aboamare/vrgp-spinache-lib#readme"
+}
