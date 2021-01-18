@@ -152,8 +152,8 @@ export class Peer {
 
   processMessage (msgObj) {
     console.log(msgObj)
-    if (msgObj.iceServers) {
-      this.iceServers = msgObj.iceServers;
+    if (msgObj.ice_servers) {
+      this.iceServers = msgObj.ice_servers;
     }
     if (msgObj.ice) {
       let candidate = new RTCIceCandidate(msgObj.ice);
