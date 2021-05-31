@@ -1,2 +1,2 @@
 export { Peer } from './peer.js'
-export { VesselInterface } from './vessel.js'
+export { VesselInterface as Vessel } from './vessel.js'

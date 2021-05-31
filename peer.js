@@ -1,6 +1,13 @@
 /* eslint-disable comma-dangle */
 export class Peer {
   constructor () {
+    if (!WebSocket) {
+      throw TypeError('A WebSocket implementation must be provided')
+    }
+    if (! (RTCIceCandidate && RTCPeerConnection && RTCSessionDescription )) {
+      throw TypeError('A WebRTC implementation must be provided')
+    }
+  
     this.streams = [];
   }
 
@@ -188,5 +195,4 @@ export class Peer {
       this.onmessage(msgObj);
     }
   }
-
 }
