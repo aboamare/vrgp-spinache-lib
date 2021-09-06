@@ -19,6 +19,14 @@ export class VesselInterface extends Peer {
     this._mmsi = newMMSI
   }
 
+  get lat () {
+    return this.position ? this.position.latitude : null
+  }
+
+  get long () {
+    return this.position ? this.position.longitude : null
+  }
+
   contactMOC(mocHostOrUrl, guidance = 'recommendation') {
     if (!this.mmsi) {
       throw Error(`Can't contact MOC as MMSI is not set!`)
