@@ -1,7 +1,7 @@
 {
   "name": "@aboamare/vrgp-spinache-lib",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Library to support development of applications that connect to a Spinache based Maritime Operation Center.",
   "exports": "./index.js",
   "scripts": {
